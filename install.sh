@@ -1,5 +1,5 @@
 #!/bin/bash
-
-ln -s ./taskrc ~/.taskrc
-mkdir -p ~/.task/hooks
-ln -s ./hooks ~/.task/hooks/
+ln -s $(pwd)/taskrc ~/.taskrc
+rm -rf ~/.task/hooks
+mkdir -p ~/.task
+ln -s $(pwd)/hooks ~/.task/hooks
