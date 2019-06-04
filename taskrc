@@ -33,10 +33,16 @@ uda.runtil.type=string
 uda.runtil.label=Expires
 
 color.tag.STUD=rgb155
+color.blocking=
 uda.chained.type=numeric
+
+report.next.filter=status:pending +UNBLOCKED limit:page
 
 report.nm.columns=id,start.age,tags,due.relative,until.remaining,description,urgency
 report.nm.description=[Minimal] Most urgent tasks
 report.nm.filter=status:pending limit:page
 report.nm.labels=ID,Active,Tag,Due,Until,Description,Urg
 report.nm.sort=urgency-
+context.work=+TRAB
+context.study=+STUD
+context.home=+MILO or +CASA or +FAMI
