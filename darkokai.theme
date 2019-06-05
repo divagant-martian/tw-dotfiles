@@ -76,13 +76,13 @@ color.tagged=
 
 # Due
 color.due=
-color.due.today=color186
+color.due.today=color77
 color.overdue=color215
 
 # Report: burndown
-color.burndown.done=
-color.burndown.pending=
-color.burndown.started=
+color.burndown.done=on color59
+color.burndown.pending=on color86
+color.burndown.started=on color197
 
 # Report: history
 color.history.add=
@@ -90,17 +90,17 @@ color.history.delete=
 color.history.done=
 
 # Report: summary
-color.summary.background=
-color.summary.bar=
+color.summary.background=on color59
+color.summary.bar=on color77
 
 # Command: calendar
-color.calendar.due=
+color.calendar.due=inverse color213
 color.calendar.due.today=
 color.calendar.holiday=
-color.calendar.overdue=
-color.calendar.today=
-color.calendar.weekend=
-color.calendar.weeknumber=
+color.calendar.overdue=inverse color215
+color.calendar.today=on color197
+color.calendar.weekend=color17
+color.calendar.weeknumber=gray10
 
 # Command: sync
 color.sync.added=
@@ -108,5 +108,5 @@ color.sync.changed=
 color.sync.rejected=
 
 # Command: undo
-color.undo.after=
-color.undo.before=
+color.undo.after=inverse color77
+color.undo.before=inverse color141
