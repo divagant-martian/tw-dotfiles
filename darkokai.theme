@@ -24,8 +24,7 @@
 #
 ###############################################################################
 
-rule.precedence.color=deleted,completed,active,overdue,keyword.,tag.,project.,scheduled,recurring,due.today,due,blocked,blocking,tagged,uda.
-
+rule.precedence.color=completed,deleted,active,tag.next,overdue,recurring,due.today
 
 # 186
 # 215
@@ -85,9 +84,9 @@ color.burndown.pending=on color86
 color.burndown.started=on color197
 
 # Report: history
-color.history.add=
-color.history.delete=
-color.history.done=
+color.history.add=inverse color141
+color.history.delete=on color17
+color.history.done=inverse color86
 
 # Report: summary
 color.summary.background=on color59
